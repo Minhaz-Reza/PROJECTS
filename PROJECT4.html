@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B3 project</title>
+    <link rel="stylesheet" href="/CSS-BOOTSTRAP/css/bootstrap.min.css">
+    <script src="/CSS-BOOTSTRAP/js/bootstrap.min.js"></script>
+    <style>
+
+
+        .Buy-now-button {
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 9px 26px;
+            cursor: pointer;
+        }
+
+
+        .first {
+            background-image: url("/Images/hot-gadgets/bg-1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            
+           
+            
+        }
+
+    
+        .card {
+            border: none;
+            box-shadow: 5px 10px 10px lightgray;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card-footer {
+            background-color: white;
+            border-top: none;
+        }
+
+        small{
+            color: gray;
+        }
+
+        .second{
+            background-image: url("/Images/hot-gadgets/bg-2.png");
+            background-repeat: no-repeat;
+            background-origin: padding-box;
+            padding-top: 100px;
+            background-size: 100px 90px;
+            margin-bottom: 100px;
+        }
+
+        .third{
+            margin-bottom: 100px;
+        }
+
+        .catgg img{
+            width: 100%;
+        }
+
+
+        .catg{
+            border: none;
+            box-shadow: 5px 10px 20px lightgray;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        .see-all small{
+            color: #fbb034;
+            font-weight: bolder;
+
+        }
+
+        .underlined-word {
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+.gradient-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+    
+}
+
+.gradient-underline::after {
+    content: '';
+    position: absolute;
+    border-radius: 20%;
+    bottom: 0;
+    left: 0;
+    width: 80%; /* Adjust the length of the underline as needed */
+    height: 3px; /* Thickness of the underline */
+    background: linear-gradient(to right, #ff9900, #ff0000); /* Adjust gradient colors */
+    transform: translateX(15%); /* Adjust the starting point of the gradient */
+}
+.para{
+    margin-bottom: 30px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg container ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/Images/hot-gadgets/logo.png" alt="Logo" width="auto" height="24"
+                    class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Smartphone">Smartphone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Laptop">Laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="first">
+        <div id="carouselExampleAutoplaying" class="carousel  slide container " data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <h3>Mackbook Pro</h3>
+                            <h6 class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis </h6>
+                            <button class="Buy-now-button">BUY NOW >></button>
+                        </div>
+                        <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-end">
+                            <img src="/Images/hot-gadgets/banner-products/product-1.png" class="d-block w-100"
+                                alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <h3>Alexa</h3>
+                            <h6 class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis eaque
+                                </h6>
+                            <button class="Buy-now-button">BUY NOW >></button>
+                        </div>
+                        <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <img src="/Images/hot-gadgets/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <h3>SoundBox</h3>
+                            <h6 class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis </h6>
+                            <button class="Buy-now-button">BUY NOW >></button>
+                        </div>
+                        <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
+                            <img src="/Images/hot-gadgets/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+
+
+    <section class="second">
+    <div class="container" id="Smartphone">
+        <div style="margin-bottom: 10px;" class="d-flex justify-content-between">
+            <div><h3>Smartphone</h3></div>
+            <div class="see-all"><h5><small>see all</small></h5></div>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Images/hot-gadgets/phone/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>iphone 11 pro</b></h5>
+                        <p class="card-text"><small>Lorem ipsum dolor sit amet consectetur adipisicing.</small></p>
+                        <h5>$125</h5>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <button class="Buy-now-button ">Buy Now >> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Images/hot-gadgets/phone/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Samsung Galaxy Note10+</b></h5>
+                        
+                        <p class="card-text"><small>Lorem ipsum dolor sit amet consectetur adipisicing.</small></p>
+                        <h5>$125</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="Buy-now-button ">Buy Now >> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Images/hot-gadgets/phone/phone-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiomi Mi</h5>
+                        
+                        <p class="card-text"><small>Lorem, ipsum dolor sit amet consectetur adipisicing.</small></p>
+                        <h5>$125</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button class="Buy-now-button ">Buy Now >> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="third">
+    <div class="container" id="Laptop">
+        <div style="margin-bottom: 10px;" class="d-flex justify-content-between">
+            <div><h3>Laotop</h3></div>
+            <div class="see-all"><h5><small>see all</small></h5></div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Images/hot-gadgets/laptop/product-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus vivobook</h5>
+                        <h5>$125</h5>
+                        <p class="card-text"><small>Lorem ipsum dolor sit amet consectetur adipisicing.</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="Buy-now-button ">Buy Now >> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Images/hot-gadgets/laptop/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade i5</h5>
+                        <h5>$125</h5>
+                        <p class="card-text"><small>Lorem ipsum dolor sit amet consectetur adipisicing.</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="Buy-now-button ">Buy Now >> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Images/hot-gadgets/laptop/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiomi Mi Notepad Pro</h5>
+                        <h5>$125</h5>
+                        <p class="card-text"><small>Lorem, ipsum dolor sit amet consectetur adipisicing.</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="Buy-now-button ">Buy Now >> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fourth">
+<h3 style="text-align: center" class="underlined-word"><b><span class="gradient-underline">Categories</span></b></h3>
+
+<div style="margin-top: 50px;margin-bottom: 50px;" class="container text-center " id="categories">
+    <div class="row">
+      <div class="col-md-3 col-3 col-sm-3 col-lg-3 col-xl-3 col-xxl-3 d-flex align-items-center justify-content-end">
+        <div class="catg ">
+            <img src="/Images/hot-gadgets/Categories/bag.png" alt="">
+            <h6><b>Bag</b></h6>
+        </div>
+        
+      </div>
+      <div class="col-md-3 col-3 col-sm-3 col-lg-3 col-xl-3 col-xxl-3 d-flex align-items-center justify-content-start flex-column mb-4">
+        <div class="catg p-2">
+        <img src="/Images/hot-gadgets/Categories/perfume.png" alt="">
+        <h6>Perfume</h6>
+        </div>
+        <div class="catg p-2">
+        <img src="/Images/hot-gadgets/Categories/shoe.png" alt="">
+        <h6>Shoe</h6> 
+           </div>
+      </div>
+      <div class="col-md-6 col-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center">
+        <div class="catgg">
+        <img src="/Images/hot-gadgets/Categories/pale-order.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+    
+
+
+</body>
+
+</html>
